@@ -5,6 +5,21 @@ body{
     background-color:#E1EAF4;
 }
 
+h1,
+p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+}
+
+h1{
+    font-size: 32px;
+}
+
+p{
+    font-size: 18px;
+}
+
 header {
     background-color: #ffffff;
     height: 80px;
@@ -22,6 +37,7 @@ header div{
     font-style: normal;
     font-size: 24px;
     font-weight: 700;
+    line-height: 28.13px;
 }
 
 a {
@@ -31,6 +47,7 @@ a {
 .dashboard {
     padding : 29px 26px;
     border-right: 2px solid #E1EAF4;
+    font-size: 24px;
 }
 
 form {
@@ -48,13 +65,30 @@ input {
 }
 
 header a{
-    padding : 0 25.5px;
+    padding : 21px 25.5px;
 }
 
 .menu{
-    margin-left: 133px;
+    margin-left: 50px;
 }
 
-a:hover{
-    text-decoration: underline;
+header a:hover{
+    /* text-decoration: underline; */
+    border-bottom: 5px solid blue;
+}
+
+main div{
+    padding: 28px 201px;
+}
+
+.rectangle{
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    margin-left: 13px;
+    margin-top: 28px;
+    padding: 30.5px 30.5px;
+}
+
+.bloc1{
+    margin-left: 656px;
 }
