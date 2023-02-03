@@ -1,22 +1,34 @@
+:root {
+    font-size: 0.625rem;
+    font-family: 'Roboto';
+}
+
 * {
     margin: 0;
-  }
-body{
-    background-color:#E1EAF4;
+}
+
+body {
+    background-color: #E1EAF4;
 }
 
 h1,
-p{
-    font-family: 'Roboto';
+p {
     font-style: normal;
+}
+
+.fw-bold {
     font-weight: 700;
 }
 
-h1{
-    font-size: 32px;
+.fw-light {
+    font-weight: 100;
 }
 
-p{
+h1 {
+    font-size: 2.4rem;
+}
+
+p {
     font-size: 18px;
 }
 
@@ -25,27 +37,36 @@ header {
     height: 80px;
 }
 
-header nav{
+header nav {
     display: flex;
     flex-direction: row;
     align-items: center;
     height: 80px;
 }
 
-header div{
-    font-family: 'Roboto';
+header div {
     font-style: normal;
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 28.13px;
+}
+
+.fs-1 {
+    font-size: 3.2rem;
+}
+
+.fs-2 {
+    font-size: 2.4rem;
+}
+
+.fs-3 {
+    font-size: 1.8rem;
 }
 
 a {
     text-decoration: none;
     color: black;
-  }
+}
+
 .dashboard {
-    padding : 29px 26px;
+    padding: 29px 26px;
     border-right: 2px solid #E1EAF4;
     font-size: 24px;
 }
@@ -55,33 +76,35 @@ form {
     margin-right: 0;
     border-right: 2px solid #E1EAF4;
 }
+
 input {
     padding: 31px 10px;
     border: 0;
     font-size: 16px;
- }
+}
+
 .search {
     width: 75%;
 }
 
-header a{
-    padding : 21px 25.5px;
+header a {
+    padding: 21px 25.5px;
 }
 
-.menu{
+.menu {
     margin-left: 50px;
 }
 
-header a:hover{
+header a:hover {
     /* text-decoration: underline; */
     border-bottom: 5px solid blue;
 }
 
-main div{
+main div {
     padding: 28px 201px;
 }
 
-.rectangle{
+.rectangle {
     background-color: #FFFFFF;
     border-radius: 5px;
     margin-left: 13px;
@@ -89,6 +112,6 @@ main div{
     padding: 30.5px 30.5px;
 }
 
-.bloc1{
+.bloc1 {
     margin-left: 656px;
 }
